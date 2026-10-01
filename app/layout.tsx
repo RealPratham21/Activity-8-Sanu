@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Rexora Dashboard",
-  description: "Premium e-commerce analytics dashboard",
+  title: "Sanika Desai Activity 8",
+  description: "Canteen operations dashboard for tracking orders, meal demand, inventory, and sustainability.",
   generator: "v0.app",
   icons: {
     icon: [
