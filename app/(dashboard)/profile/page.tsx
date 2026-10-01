@@ -42,8 +42,8 @@ export default function ProfilePage() {
                   <Camera className="w-4 h-4" />
                 </button>
               </div>
-              <h2 className="text-xl font-semibold">Oripio Sajib</h2>
-              <p className="text-sm text-muted-foreground">oripio.sajib@rexora.com</p>
+              <h2 className="text-xl font-semibold">Sanika Desai</h2>
+              <p className="text-sm text-muted-foreground">sanika.desai@example.com</p>
               <Badge className="mt-2 bg-[var(--color-accent)] text-foreground hover:bg-[var(--color-accent)]/90">
                 Admin
               </Badge>
@@ -53,7 +53,7 @@ export default function ProfilePage() {
               <div className="w-full space-y-4 text-left">
                 <div className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-muted-foreground" />
-                  <span className="text-sm">oripio.sajib@rexora.com</span>
+                  <span className="text-sm">sanika.desai@example.com</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="w-4 h-4 text-muted-foreground" />
@@ -65,7 +65,7 @@ export default function ProfilePage() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Building className="w-4 h-4 text-muted-foreground" />
-                  <span className="text-sm">Rexora Inc.</span>
+                  <span className="text-sm">CanteenWise</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Calendar className="w-4 h-4 text-muted-foreground" />
@@ -86,16 +86,16 @@ export default function ProfilePage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <Label htmlFor="firstName">First Name</Label>
-                  <Input id="firstName" defaultValue="Oripio" />
+                  <Input id="firstName" defaultValue="Sanika" />
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="lastName">Last Name</Label>
-                  <Input id="lastName" defaultValue="Sajib" />
+                  <Input id="lastName" defaultValue="Desai" />
                 </div>
               </div>
               <div className="space-y-2">
                 <Label htmlFor="email">Email Address</Label>
-                <Input id="email" type="email" defaultValue="oripio.sajib@rexora.com" />
+                <Input id="email" type="email" defaultValue="sanika.desai@example.com" />
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="space-y-2">

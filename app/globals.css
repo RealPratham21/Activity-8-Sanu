@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Premium cream/off-white background for Rexora dashboard */
+  /* Cream/off-white background for the CanteenWise dashboard */
   --background: oklch(0.98 0.005 90);
   --foreground: oklch(0.2 0 0);
   --card: oklch(1 0 0);

@@ -8,8 +8,19 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://activity-8-sanu.vercel.app"),
   title: "Sanika Desai Activity 8",
   description: "Canteen operations dashboard for tracking orders, meal demand, inventory, and sustainability.",
+  openGraph: {
+    title: "Sanika Desai Activity 8",
+    description: "Canteen operations dashboard for tracking orders, meal demand, inventory, and sustainability.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Sanika Desai Activity 8",
+    description: "Canteen operations dashboard for tracking orders, meal demand, inventory, and sustainability.",
+  },
   generator: "v0.app",
   icons: {
     icon: [
